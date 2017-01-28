@@ -1,6 +1,7 @@
 # Realtime-music-visualizer
-Realtime visualizer built with python
-wav file supported only.
+Realtime visualizer built with python.
+
+Wav file supported only.
 To adjust the frequency sensitivity, modify `WINDOW_INTERVAL` in `realtime_play.py`.
 
 **Usage: python realtime_play.py musicToPlay.wav**
