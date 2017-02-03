@@ -1,7 +1,7 @@
 if (!($# == 2))
 then
-  echo "Usage: $0 inFile outFile"
+  echo "Usage: $0 outFile.wav inFile.mp3"
   exit -1
 fi
-ffmpeg -i $1 -acodec pcm_u8 -ar 44100 -ac 2 $2
+mpg123 $1 $2
 echo "finished"
