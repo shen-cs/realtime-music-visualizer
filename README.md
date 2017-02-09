@@ -8,7 +8,7 @@ To adjust the frequency sensitivity, modify `WINDOW_INTERVAL` in `realtime_play.
 
 If mp3 is to be played, here's also a script `toWav.sh` to convert mp3 to wav.
 
-**Usage: ./toWav.sh inFile.mp3 outfile.wav**
+**Usage: ./toWav.sh outfile.wav inFile.mp3**
 
 ## Library required:
 [pyqtgraph](http://www.pyqtgraph.org/)
