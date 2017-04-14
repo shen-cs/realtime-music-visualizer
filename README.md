@@ -7,6 +7,7 @@ To adjust the frequency sensitivity, modify `WINDOW_INTERVAL` in `realtime_play.
 **Usage: python realtime_play.py musicToPlay.wav**
 
 Realtime visualize audio data received:
+
 **Usage: python realtime_record.py**
 
 If mp3 is to be played, here's also a script `toWav.sh` to convert mp3 to wav.
