@@ -12,7 +12,7 @@ BUFFER = 4096
 
 
 if len(sys.argv) != 2:
-	print 'Usage: python %s filename.wav' % sys.argv[0]
+	print('Usage: python %s filename.wav' % sys.argv[0])
 	exit(-1)
 filename = sys.argv[1]
 
